@@ -1,13 +1,7 @@
 import React from "react";
-import Nav from "./components/Nav";
+import PortfolioContainer from "./components/PortfolioContainer";
+import "./App.css"; //styling for overall page
 
-function App() {
-  return (
-    <div className="App">
-      <Nav />
-      <h1> This do be working</h1>
-    </div>
-  );
-}
+const App = () => <PortfolioContainer />;
 
 export default App;
