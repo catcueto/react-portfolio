@@ -10,3 +10,11 @@ body {
   background-color: #040248;
   color: rgb(240, 240, 240);
 }
+
+/* BANNER */
+.banner-custom {
+  height: 100vh;
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
+}
