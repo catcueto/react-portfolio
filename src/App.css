@@ -56,12 +56,12 @@ body {
 /* ABOUT ME */
 .section-title {
   display: block;
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: uppercase;
   margin-top: 4rem;
   color: #00222b;
-  font-weight: 700;
-  letter-spacing: 2px;
+  font-weight: 800;
+  letter-spacing: 3px;
   font-family: "Source Sans Pro";
   text-align: center;
 }

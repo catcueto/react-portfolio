@@ -5,7 +5,6 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import Resume from "./components/Resume";
 import "./App.css"; //styling for overall page
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
-      <Resume />
     </div>
   );
 }

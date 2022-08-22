@@ -21,7 +21,12 @@ function Navigation() {
         </Nav>
         <Nav>
           <Nav.Link href="#contact">contact</Nav.Link>
-          <Nav.Link href="#resume">resume</Nav.Link>
+          <Nav.Link
+            href="https://drive.google.com/file/d/1dp4caYUb4c4r_c3HvUaSe1eN0TYLDrLd/view"
+            target="_blank"
+          >
+            resume
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
