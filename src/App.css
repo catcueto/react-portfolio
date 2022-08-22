@@ -2,19 +2,79 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Playfair Display", "Roboto";
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background-color: #040248;
-  color: rgb(240, 240, 240);
+  background-color: #f1f0f5;
+  color: #140808;
 }
 
-/* BANNER */
-.banner-custom {
-  height: 446px;
-  width: 100vw;
+/* HERO SECTION */
+.hero-section {
   position: relative;
-  z-index: 100;
+  text-align: center;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* max-width: 90rem; */
+  width: 92%;
+}
+
+.heading-primary {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 6rem;
+  letter-spacing: 3px;
+  color: #f0e4e4;
+}
+
+.hero-info {
+  color: #f0e4e4;
+  margin: 2rem auto 0 auto;
+  font-size: 2.2rem;
+  text-align: center;
+  background-color: #01bce175;
+}
+
+#banner-custom {
+  height: 50rem;
+  width: 100vw;
+  z-index: 99;
+}
+/* ABOUT ME */
+.logo-custom {
+  float: left;
+  width: 25rem;
+}
+
+#myname {
+  font-family: "Playfair Display";
+  font-size: 4rem;
+  margin-top: 3rem;
+}
+
+#about-sub {
+  font-size: 1.4rem;
+}
+#about-text {
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* SKILLS */
+
+#skills-text {
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  line-height: 1.5;
 }

@@ -1,24 +1,26 @@
-.navbar {
-  position: absolute;
-  background: #04034f;
-  border-bottom: 4px solid #dbeb00;
+#navbar {
+  background: #00222b;
+  border-bottom: 4px solid #fd8000;
   height: 5rem;
   width: 100%;
   text-align: right;
-  bottom: 9rem;
   display: flex;
 }
 
-.flex {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-/* .navbar a {
-  color: white;
+.navbar a {
+  color: #fff;
   font-size: 1.3rem;
   text-decoration: none;
-  margin: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 15px;
+  margin-right: 10px;
   line-height: 3;
-} */
+  letter-spacing: 2px;
+}
+
+.navbar a:hover,
+a:active {
+  color: #e82d99;
+  background-color: #f5e9e9;
+}
