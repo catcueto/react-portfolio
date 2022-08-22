@@ -5,8 +5,9 @@ export default function Projects() {
   return (
     <div>
       <Container>
-        <h1>Projects</h1>
-        <p>
+        <h2 className="section-title">projects</h2>
+        <div className="line-under"></div>
+        <p id="skills-text">
           Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
           Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
           dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci,

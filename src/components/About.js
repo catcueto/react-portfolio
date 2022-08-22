@@ -6,9 +6,10 @@ export default function About() {
   return (
     <div>
       <Container>
-        <img src={logo} alt="banner" className="logo-custom" />
-        <h1 id="myname">Catalina Cueto</h1>
-        <h3 id="about-sub">Full Stack Developer</h3>
+        <h2 className="section-title">about</h2>
+        <div className="line-under"></div>
+        {/* <img src={logo} alt="banner" className="logo-custom" /> */}
+
         <p id="about-text">
           Hey! I'm a natural problem-solver who is passionate about enhancing
           people's lives and helping others in any possible way. My background

@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Source Sans Pro", "Playfair Display", "Roboto";
+  font-family: "Source Sans Pro", sans-serif, "Playfair Display", "Roboto";
 }
 
 html {
@@ -12,6 +12,7 @@ html {
 body {
   background-color: #f1f0f5;
   color: #140808;
+  line-height: 1.5;
 }
 
 /* HERO SECTION */
@@ -35,6 +36,7 @@ body {
   font-size: 6rem;
   letter-spacing: 3px;
   color: #f0e4e4;
+  text-align: center;
 }
 
 .hero-info {
@@ -43,6 +45,7 @@ body {
   font-size: 2.2rem;
   text-align: center;
   background-color: #01bce175;
+  letter-spacing: 2px;
 }
 
 #banner-custom {
@@ -51,20 +54,32 @@ body {
   z-index: 99;
 }
 /* ABOUT ME */
+.section-title {
+  display: block;
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-top: 4rem;
+  color: #00222b;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "Source Sans Pro";
+  text-align: center;
+}
+
+.line-under {
+  width: 8%;
+  height: 8px;
+  border-radius: 1rem;
+  background: #02c0ec;
+  margin-left: 46%;
+  margin-bottom: 50px;
+}
+
 .logo-custom {
   float: left;
   width: 25rem;
 }
 
-#myname {
-  font-family: "Playfair Display";
-  font-size: 4rem;
-  margin-top: 3rem;
-}
-
-#about-sub {
-  font-size: 1.4rem;
-}
 #about-text {
   font-family: "Roboto";
   font-size: 1.2rem;

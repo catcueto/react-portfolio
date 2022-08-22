@@ -5,7 +5,8 @@ export default function Contact() {
   return (
     <div>
       <Container>
-        <h1>Contact Page</h1>
+        <h2 className="section-title">contact</h2>
+        <div className="line-under"></div>
         <p>
           Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem,
           quis molestie urna. Aliquam semper ultrices varius. Aliquam faucibus

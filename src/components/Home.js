@@ -7,9 +7,8 @@ export default function Home() {
       <div className="hero-content">
         <h1 className="heading-primary">Hola, I'm Catalina Cueto</h1>
         <h4 className="hero-info">
-          {" "}
           Software Engineer | Dog Mama | Avid Foodie | Fitness Enthusiast |
-          Occasional Chef{" "}
+          Occasional Chef
         </h4>
       </div>
     </div>
