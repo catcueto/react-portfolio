@@ -3,19 +3,32 @@ import Container from "react-bootstrap/Container";
 
 export default function Contact() {
   return (
-    <div>
-      <Container>
-        <h2 className="section-title">contact</h2>
-        <div className="line-under"></div>
-        <p className="contact-form">
-          Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem,
-          quis molestie urna. Aliquam semper ultrices varius. Aliquam faucibus
-          sit amet magna a ultrices. Aenean pellentesque placerat lacus
-          imperdiet efficitur. In felis nisl, luctus non ante euismod, tincidunt
-          bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus
-          quis magna posuere, eget tristique dui dapibus.
-        </p>
-      </Container>
-    </div>
+    <section className="container flex">
+      <h2 className="section-title">contact</h2>
+      <div className="line-under"></div>
+      <div className="Want to get in touch?"></div>
+      <form className="contact-form container">
+        <input placeholder="Name" type="text" name="name" required></input>
+        <input placeholder="Email" type="email" name="email" required></input>
+        <textarea
+          placeholder="Enter Your Message"
+          type="text"
+          name="message"
+          required
+        ></textarea>
+        <div id="message-sent">
+          <div>
+            Your message was sent successfully. I'll get back to you as soon as
+            I can :)!{" "}
+          </div>
+        </div>
+        <input
+          className="button"
+          type="submit"
+          id="submitBtn"
+          value="SUBMIT"
+        ></input>
+      </form>
+    </section>
   );
 }

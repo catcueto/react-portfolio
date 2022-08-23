@@ -22,7 +22,7 @@ function Navigation() {
         <Nav>
           <Nav.Link href="#contact">contact</Nav.Link>
           <Nav.Link
-            href="https://drive.google.com/file/d/1dp4caYUb4c4r_c3HvUaSe1eN0TYLDrLd/view"
+            href="https://drive.google.com/file/d/1b3DGy8T0wnLxi38ifFvr2eTXnz3ZkqhZ/view?usp=sharing"
             target="_blank"
           >
             resume
