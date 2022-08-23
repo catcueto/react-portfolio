@@ -1,3 +1,14 @@
+/* COLOR PALETTE
+#f0e4e4 
+#140808
+#00222b
+#01bce175;
+#02c0ec
+#ff718a
+#be2eaa
+#fd8000
+*/
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -99,15 +110,66 @@ body {
   background: #ff718a;
   border-radius: 1.2rem;
   font-weight: 500;
-  color: #fff;
+  color: #f0e4e4;
 }
 
 /* PROJECTS */
 
 /* CONTACT */
 
-.contact-form {
-  margin-bottom: 10rem;
+.contact-title {
+  color: #f0e4e4;
+}
+.contact-section {
+  padding: 2rem;
+  background-color: #00222b;
+}
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subhead-contact {
+  color: #02c0ec;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.inputs {
+  border: none;
+  padding: 1rem 1.2rem;
+  background: #fd8000;
+  width: 100%;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 8px;
+}
+
+.message {
+  min-height: 15rem;
+}
+
+form ::placeholder {
+  color: #f0e4e4;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.button {
+  width: 10rem;
+  padding: 1.2rem 1.8rem;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #f0e4e4;
+  background-color: #ff718a;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
 }
 
 /* FOOTER */
