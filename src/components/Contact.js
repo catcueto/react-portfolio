@@ -6,7 +6,7 @@ export default function Contact() {
       <div className="container">
         <h2 className="section-title contact-title">contact</h2>
         {/* <div className="line-under-contact"></div> */}
-        <div className="subhead-contact">Want to get in touch?</div>
+        <div className="subhead-contact">Have questions or want to collab?</div>
         <form className="contact-form ">
           <input
             className="inputs"

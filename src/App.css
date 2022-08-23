@@ -114,7 +114,9 @@ body {
 }
 
 /* PROJECTS */
-
+#project-text {
+  margin-bottom: 5rem;
+}
 /* CONTACT */
 
 .contact-title {
@@ -123,6 +125,7 @@ body {
 .contact-section {
   padding: 2rem;
   background-color: #00222b;
+  text-align: center;
 }
 .container {
   align-items: center;
@@ -160,7 +163,7 @@ form ::placeholder {
 
 .button {
   width: 10rem;
-  padding: 1.2rem 1.8rem;
+  padding: 1rem 1.5rem;
   border-radius: 8px;
   font-weight: 700;
   font-size: 1.4rem;
