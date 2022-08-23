@@ -2,7 +2,7 @@ import React from "react";
 import banner from "../imgs/banner-6.jpg";
 export default function Home() {
   return (
-    <div className="hero-section">
+    <div className="hero-section" id="home">
       <img src={banner} alt="banner" id="banner-custom" />
       <div className="hero-content">
         <h1 className="heading-primary">Hola, I'm Catalina Cueto</h1>

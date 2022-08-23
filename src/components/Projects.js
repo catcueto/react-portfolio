@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div>
       <Container>
-        <div className="contact-section">
+        <section className="contact-section" id="projects">
           <h2 className="section-title">projects</h2>
           <div className="line-under"></div>
           <p id="skills-text">
@@ -24,7 +24,7 @@ export default function Projects() {
             congue. Pellentesque semper, lectus non ullamcorper iaculis, est
             ligula suscipit velit, sed bibendum turpis dui in sapien.
           </p>
-        </div>
+        </section>
       </Container>
     </div>
   );

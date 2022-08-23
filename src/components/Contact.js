@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 
 export default function Contact() {
   return (
-    <section className="container flex">
+    <section className="container flex" id="contact">
       <h2 className="section-title">contact</h2>
       <div className="line-under"></div>
       <div className="Want to get in touch?"></div>
