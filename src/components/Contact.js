@@ -7,7 +7,7 @@ export default function Contact() {
       <Container>
         <h2 className="section-title">contact</h2>
         <div className="line-under"></div>
-        <p>
+        <p className="contact-form">
           Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem,
           quis molestie urna. Aliquam semper ultrices varius. Aliquam faucibus
           sit amet magna a ultrices. Aenean pellentesque placerat lacus
