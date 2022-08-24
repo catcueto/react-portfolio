@@ -8,7 +8,13 @@ import "../styles/Navbar.css";
 function Navigation() {
   return (
     // <h1>This is working</h1>
-    <Navbar collapseOnSelect expand="lg" variant="dark" id="navbar">
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      variant="dark"
+      id="navbar"
+      className="fixed"
+    >
       <Navbar.Brand href="#home">
         <img src={icon} alt="logo" id="nav-logo" />
       </Navbar.Brand>

@@ -1,11 +1,11 @@
 import React from "react";
 import Home from "./components/Home";
 import Navigation from "./components/Navigation";
+import Socials from "./components/Socials";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 import "./App.css"; //styling for overall page
 
 function App() {
@@ -13,11 +13,11 @@ function App() {
     <div>
       <Home />
       <Navigation />
+      <Socials />
       <About />
       <Skills />
       <Projects />
       <Contact />
-      <Footer />
     </div>
   );
 }

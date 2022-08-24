@@ -7,7 +7,11 @@ export default function Contact() {
         <h2 className="section-title contact-title">contact</h2>
         {/* <div className="line-under-contact"></div> */}
         <div className="subhead-contact">Have questions or want to collab?</div>
-        <form className="contact-form ">
+        <form
+          className="contact-form"
+          action="https://formsubmit.co/3d283826683bb386dfa1cf7ad3fb03b4"
+          method="POST"
+        >
           <input
             className="inputs"
             placeholder="Name"
@@ -29,12 +33,7 @@ export default function Contact() {
             name="message"
             required
           ></textarea>
-          <div id="message-sent">
-            <div>
-              Your message was sent successfully. I'll get back to you as soon
-              as I can :)!{" "}
-            </div>
-          </div>
+          <input type="hidden" name="_captcha" value="false"></input>
           <input
             className="button"
             type="submit"

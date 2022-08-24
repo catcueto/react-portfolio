@@ -16,6 +16,7 @@
   font-family: "Source Sans Pro", sans-serif, "Playfair Display", "Roboto";
 }
 
+/* GENERAL */
 html {
   -webkit-text-size-adjust: 100%;
 }
@@ -24,6 +25,14 @@ body {
   background-color: #f1f0f5;
   color: #140808;
   line-height: 1.5;
+}
+.line-under {
+  width: 8%;
+  height: 8px;
+  border-radius: 1rem;
+  background: #02c0ec;
+  margin-left: 46%;
+  margin-bottom: 5rem;
 }
 
 /* HERO SECTION */
@@ -64,6 +73,38 @@ body {
   width: 100vw;
   z-index: 99;
 }
+
+/* SOCIALS */
+.rightSide-socials {
+  background: #002f3b;
+  padding: 1rem;
+  position: absolute;
+  bottom: -250rem;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 1px 3px 2.5px rgba(0, 0, 0, 0.034);
+}
+
+.individual-social {
+  width: 4rem;
+}
+
+.social-link {
+  text-decoration: none;
+  color: #f0e4e4;
+  width: 100%;
+  display: block;
+  transition: 0.4s;
+}
+
+ion-icon {
+  font-size: 50px;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #02c0ec;
+}
 /* ABOUT ME */
 .section-title {
   display: block;
@@ -75,15 +116,6 @@ body {
   letter-spacing: 3px;
   font-family: "Source Sans Pro";
   text-align: center;
-}
-
-.line-under {
-  width: 8%;
-  height: 8px;
-  border-radius: 1rem;
-  background: #02c0ec;
-  margin-left: 46%;
-  margin-bottom: 5rem;
 }
 
 .logo-custom {
@@ -148,7 +180,7 @@ body {
 .project-title {
   font-weight: 700;
   font-size: 2.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   font-family: "Playfair Display";
   letter-spacing: 1px;
 }
@@ -169,7 +201,7 @@ body {
   border: none;
   font-family: "Source Sans Pro";
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 /* CONTACT */
@@ -227,23 +259,4 @@ form ::placeholder {
   text-transform: uppercase;
   letter-spacing: 2px;
   display: inline-block;
-}
-
-/* FOOTER */
-.footer-main {
-  max-width: 120rem;
-  width: 92%;
-  background: #f1f0f5;
-  color: #140808;
-}
-
-.footer-main-top {
-  display: flex;
-  justify-content: space-between;
-  padding: 7rem 0;
-  margin: 0;
-}
-
-.footer-main-contact {
-  order: 2;
 }
