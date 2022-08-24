@@ -177,7 +177,7 @@ body {
   color: #f0e4e4;
 }
 .contact-section {
-  padding: 2rem;
+  padding: 2rem 2rem 7rem 2rem;
   background-color: #00222b;
   text-align: center;
 }
@@ -230,3 +230,20 @@ form ::placeholder {
 }
 
 /* FOOTER */
+.footer-main {
+  max-width: 120rem;
+  width: 92%;
+  background: #f1f0f5;
+  color: #140808;
+}
+
+.footer-main-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 7rem 0;
+  margin: 0;
+}
+
+.footer-main-contact {
+  order: 2;
+}
