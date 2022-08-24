@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.f7f2b2b3.css",
+    "main.js": "/react-portfolio/static/js/main.e90f5b33.js",
+    "static/media/banner-6.jpg": "/react-portfolio/static/media/banner-6.211ca3aa1e6e45f7235c.jpg",
+    "static/media/wellness-project.png": "/react-portfolio/static/media/wellness-project.ac117b9bd5a4936c61a7.png",
+    "static/media/recipefinder-project.png": "/react-portfolio/static/media/recipefinder-project.801a8a82b46036093ef7.png",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.82bb9dc26f827bac9ce4.png",
+    "static/media/quiz-project.png": "/react-portfolio/static/media/quiz-project.8ced800e19c61daae14a.png",
+    "static/media/navbar-icon.svg": "/react-portfolio/static/media/navbar-icon.cf357038d834b3519dd0357d5ae02e9c.svg",
+    "static/media/cat-logo.png": "/react-portfolio/static/media/cat-logo.936ba9c022391531251a.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.f7f2b2b3.css.map": "/react-portfolio/static/css/main.f7f2b2b3.css.map",
+    "main.e90f5b33.js.map": "/react-portfolio/static/js/main.e90f5b33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7f2b2b3.css",
+    "static/js/main.e90f5b33.js"
+  ]
+}
