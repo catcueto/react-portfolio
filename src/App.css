@@ -69,7 +69,7 @@ body {
   display: block;
   font-size: 3rem;
   text-transform: uppercase;
-  margin-top: 4rem;
+  margin-top: 5rem;
   color: #00222b;
   font-weight: 800;
   letter-spacing: 3px;
@@ -83,7 +83,7 @@ body {
   border-radius: 1rem;
   background: #02c0ec;
   margin-left: 46%;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 .logo-custom {
@@ -92,9 +92,9 @@ body {
 }
 
 #about-text {
-  font-family: "Roboto";
-  font-size: 1.3rem;
-  line-height: 1.4;
+  font-family: "Source Sans Pro";
+  font-size: 1.4rem;
+  line-height: 1.5;
 }
 
 /* SKILLS */
@@ -114,11 +114,65 @@ body {
 }
 
 /* PROJECTS */
-#project-text {
-  margin-bottom: 5rem;
-}
-/* CONTACT */
 
+#projects-overall {
+  margin: 0;
+  padding: 0;
+}
+
+.project-row {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-gap: 5rem;
+  margin-bottom: 10rem;
+}
+
+.projects-img {
+  overflow: hidden;
+}
+
+#project-custom {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.projects-content {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-family: "Playfair Display";
+  letter-spacing: 1px;
+}
+
+.project-description {
+  font-size: 1.3rem;
+  font-family: "Source Sans Pro";
+}
+
+.btn-project {
+  color: #f0e4e4;
+  font-weight: 600;
+  background-color: #fd8000;
+  padding: 1.2rem 3rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  font-family: "Source Sans Pro";
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+/* CONTACT */
 .contact-title {
   color: #f0e4e4;
 }
