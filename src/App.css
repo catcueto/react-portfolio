@@ -104,14 +104,104 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
-#skill-specific {
+.skill-specific {
   padding: 1rem 2rem;
   margin: 0 1.5rem 1.5rem 0;
   font-size: 1.3rem;
   background: #ff718a;
   border-radius: 1.2rem;
+  border: none;
   font-weight: 500;
   color: #f0e4e4;
+  word-spacing: 1px;
+}
+
+#btn-html:hover {
+  background-color: #dd4b25;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+#btn-css:hover {
+  background-color: #208fd9;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+#btn-bootstrap:hover {
+  background-color: #8a13fc;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+#btn-js:hover {
+  background-color: #f7df1e;
+  color: #161212;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+#btn-react:hover {
+  background-color: #4ad5ff;
+  color: #161212;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+#btn-python:hover {
+  background-color: #3772a0;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+#btn-r:hover {
+  background-color: #2566b6;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+#btn-node:hover {
+  background-color: #569f4a;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+#btn-express:hover {
+  background-color: #2e2e2e;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+#btn-jquery:hover {
+  background-color: #1064a5;
+  transition: 0.3s;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+#btn-mysql:hover {
+  background-color: #f7961a;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+#btn-mongodb:hover {
+  background-color: #0fa14c;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+#btn-graphql:hover {
+  background-color: #da0093;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+#btn-github:hover {
+  background-color: #161414;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 /* PROJECTS */

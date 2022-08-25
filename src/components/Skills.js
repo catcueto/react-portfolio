@@ -9,19 +9,48 @@ export default function About() {
           <h2 className="section-title">skills</h2>
           <div className="line-under"></div>
           <div className="skills">
-            <div id="skill-specific">HTML</div>
-            <div id="skill-specific">CSS</div>
-            <div id="skill-specific">JavaScript</div>
-            <div id="skill-specific">React</div>
-            <div id="skill-specific">Python</div>
-            <div id="skill-specific">R</div>
-            <div id="skill-specific">Node.js</div>
-            <div id="skill-specific">Express.js</div>
-            <div id="skill-specific">jQuery</div>
-            <div id="skill-specific">MySQL</div>
-            <div id="skill-specific">MongoDB</div>
-            <div id="skill-specific">NoSQL</div>
-            <div id="skill-specific">GitHub</div>
+            <button id="btn-html" className="skill-specific">
+              HTML
+            </button>
+            <button id="btn-css" className="skill-specific">
+              CSS
+            </button>
+            <button id="btn-bootstrap" className="skill-specific">
+              Bootstrap
+            </button>
+            <button id="btn-js" className="skill-specific">
+              JavaScript
+            </button>
+            <button id="btn-react" className="skill-specific">
+              React
+            </button>
+            <button id="btn-python" className="skill-specific">
+              Python
+            </button>
+            <button id="btn-r" className="skill-specific">
+              R
+            </button>
+            <button id="btn-node" className="skill-specific">
+              Node.js
+            </button>
+            <button id="btn-express" className="skill-specific">
+              Express.js
+            </button>
+            <button id="btn-jquery" className="skill-specific">
+              jQuery
+            </button>
+            <button id="btn-mysql" className="skill-specific">
+              MySQL
+            </button>
+            <button id="btn-mongodb" className="skill-specific">
+              MongoDB
+            </button>
+            <button id="btn-graphql" className="skill-specific">
+              GraphQL
+            </button>
+            <button id="btn-github" className="skill-specific">
+              GitHub
+            </button>
           </div>
         </section>
       </Container>
