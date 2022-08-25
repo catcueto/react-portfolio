@@ -74,37 +74,6 @@ body {
   z-index: 99;
 }
 
-/* SOCIALS */
-.rightSide-socials {
-  background: #002f3b;
-  padding: 1rem;
-  position: absolute;
-  bottom: -250rem;
-  border-radius: 0 10px 10px 0;
-  box-shadow: 1px 3px 2.5px rgba(0, 0, 0, 0.034);
-}
-
-.individual-social {
-  width: 4rem;
-}
-
-.social-link {
-  text-decoration: none;
-  color: #f0e4e4;
-  width: 100%;
-  display: block;
-  transition: 0.4s;
-}
-
-ion-icon {
-  font-size: 50px;
-}
-
-a:hover,
-a:active,
-a:focus {
-  color: #02c0ec;
-}
 /* ABOUT ME */
 .section-title {
   display: block;
@@ -259,4 +228,36 @@ form ::placeholder {
   text-transform: uppercase;
   letter-spacing: 2px;
   display: inline-block;
+}
+
+/* SOCIALS */
+.rightSide-socials {
+  background: #002f3b;
+  padding: 1rem;
+  position: absolute;
+  bottom: -249rem;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 1px 3px 2.5px rgba(0, 0, 0, 0.034);
+}
+
+.individual-social {
+  width: 4rem;
+}
+
+.social-link {
+  text-decoration: none;
+  color: #f0e4e4;
+  width: 100%;
+  display: block;
+  transition: 0.4s;
+}
+
+ion-icon {
+  font-size: 50px;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #02c0ec;
 }
