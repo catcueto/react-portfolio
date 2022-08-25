@@ -24,7 +24,7 @@ Hi friends! This is my portfolio page where you can learn a little bit about me,
 
 ## Link
 
-Visit the deployed application at catcueto.github.io/react-portfolio/
+Visit the deployed application at https://catcueto.github.io/react-portfolio/
 
 ## Contact
 
