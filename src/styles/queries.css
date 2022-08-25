@@ -29,7 +29,15 @@
     font-size: 75%;
   }
   .rightSide-socials {
-    bottom: -264rem;
+    bottom: -168rem;
+    display: flex;
+    flex-direction: row;
+  }
+  ion-icon {
+    font-size: 32px;
+  }
+  .individual-social {
+    width: 3.3rem;
   }
 }
 
@@ -101,57 +109,27 @@
 }
 
 /**************************/
-/* BELOW 552px (Phones) */
+/* BELOW 576px (Phones) */
 /**************************/
 
-@media (max-width: 34.5em) {
+@media (max-width: 36em) {
   html {
-    font-size: 45%;
+    font-size: 35%;
   }
   .nav-logo {
-    width: 10rem;
+    width: 3.5rem;
+  }
+  .individual-social {
+    width: 1.5rem;
+    margin-right: 1.2rem;
   }
 
-  .grid--2-cols,
-  .grid--3-cols,
-  .grid--4-cols {
-    grid-template-columns: 1fr;
+  .rightSide-socials {
+    bottom: -150rem;
+    transform: translateY(500%);
+    padding: 1.5rem;
   }
-
-  .btn,
-  .btn:link,
-  .btn:visited {
-    padding: 2.4rem 1.6rem;
+  ion-icon {
+    font-size: 12px;
   }
-
-  .section-hero {
-    padding: 2.4rem 0 6.4rem 0;
-  }
-
-  .hero {
-    padding: 0 3.2rem;
-  }
-
-  .hero-img {
-    width: 80%;
-  }
-
-  .logos img {
-    height: 1.2rem;
-  }
-
-  .step-img-box:nth-child(2) {
-    grid-row: 1;
-  }
-
-  .step-img-box:nth-child(6) {
-    grid-row: 5;
-  }
-
-  .step-img-box {
-    transform: translateY(2.4rem);
-  }
-
-  .testimonials {
-    grid-template-columns: 1fr;
-  }
+}
