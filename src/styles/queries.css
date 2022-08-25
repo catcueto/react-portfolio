@@ -1,0 +1,157 @@
+/**************************/
+/* BELOW 14872px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 92em) {
+  .hero-section {
+    max-width: 120rem;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .hero-info {
+    font-size: 1.8rem;
+  }
+
+  .rightSide-socials {
+    bottom: -272rem;
+  }
+}
+
+/**************************/
+/* BELOW 1248px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 78em) {
+  html {
+    font-size: 75%;
+  }
+  .rightSide-socials {
+    bottom: -264rem;
+  }
+}
+
+/**************************/
+/* BELOW 1016px (Tablets) */
+/**************************/
+
+@media (max-width: 63.5em) {
+  html {
+    font-size: 60%;
+  }
+  .rightSide-socials {
+    bottom: -262rem;
+    padding: 2rem;
+  }
+  ion-icon {
+    font-size: 40px;
+  }
+  .project-row {
+    grid-gap: 4rem;
+    grid-template-columns: 1.5fr 1fr;
+  }
+  .projects-content {
+    padding: 0;
+  }
+}
+
+/**************************/
+/* BELOW 992px */
+/**************************/
+@media (max-width: 62em) {
+  .rightSide-socials {
+    bottom: -248.5rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+  }
+  ion-icon {
+    font-size: 32px;
+  }
+  .individual-social {
+    width: 3.3rem;
+  }
+}
+
+/**************************/
+/* BELOW 768px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 48em) {
+  html {
+    font-size: 50%;
+  }
+  .individual-social {
+    width: 2.5rem;
+    margin-right: 1.8rem;
+  }
+  .rightSide-socials {
+    bottom: -208rem;
+    padding: 2rem;
+  }
+  ion-icon {
+    font-size: 30px;
+  }
+  .project-row {
+    grid-gap: 3.5rem;
+    grid-template-columns: 1.5fr 1.2fr;
+  }
+}
+
+/**************************/
+/* BELOW 552px (Phones) */
+/**************************/
+
+@media (max-width: 34.5em) {
+  html {
+    font-size: 45%;
+  }
+  .nav-logo {
+    width: 10rem;
+  }
+
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.6rem;
+  }
+
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+
+  .hero {
+    padding: 0 3.2rem;
+  }
+
+  .hero-img {
+    width: 80%;
+  }
+
+  .logos img {
+    height: 1.2rem;
+  }
+
+  .step-img-box:nth-child(2) {
+    grid-row: 1;
+  }
+
+  .step-img-box:nth-child(6) {
+    grid-row: 5;
+  }
+
+  .step-img-box {
+    transform: translateY(2.4rem);
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr;
+  }

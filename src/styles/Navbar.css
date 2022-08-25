@@ -35,7 +35,16 @@ a:focus {
   color: #ff718a;
 }
 
-#nav-logo {
+.nav-logo {
   width: 4.5rem;
   overflow: hidden;
+}
+
+.nav-link {
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.me-auto {
+  color: #00222b;
 }

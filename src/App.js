@@ -6,7 +6,8 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import "./App.css"; //styling for overall page
+import "./styles/App.css"; //styling for overall page
+import "./styles/queries.css"; //media queries for mobile responsiveness
 
 function App() {
   return (

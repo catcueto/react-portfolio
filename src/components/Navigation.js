@@ -15,17 +15,15 @@ function Navigation() {
       id="navbar"
       className="fixed"
     >
-      <Navbar.Brand href="#home">
-        <img src={icon} alt="logo" id="nav-logo" />
-      </Navbar.Brand>
+      <div href="#home">
+        <img src={icon} alt="logo" className="nav-logo" />
+      </div>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
           <Nav.Link href="#about">about</Nav.Link>
           <Nav.Link href="#projects">projects</Nav.Link>
           <Nav.Link href="#skills">skills</Nav.Link>
-        </Nav>
-        <Nav>
           <Nav.Link href="#contact">contact</Nav.Link>
           <Nav.Link
             href="https://drive.google.com/file/d/1b3DGy8T0wnLxi38ifFvr2eTXnz3ZkqhZ/view?usp=sharing"
