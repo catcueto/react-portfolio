@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.1f69f782.css",
-    "main.js": "/react-portfolio/static/js/main.cca16fc0.js",
+    "main.css": "/react-portfolio/static/css/main.c926292d.css",
+    "main.js": "/react-portfolio/static/js/main.f2693618.js",
     "static/media/banner-6.jpg": "/react-portfolio/static/media/banner-6.211ca3aa1e6e45f7235c.jpg",
     "static/media/wellness-project.png": "/react-portfolio/static/media/wellness-project.ac117b9bd5a4936c61a7.png",
     "static/media/recipefinder-project.png": "/react-portfolio/static/media/recipefinder-project.801a8a82b46036093ef7.png",
@@ -10,11 +10,11 @@
     "static/media/navbar-icon.svg": "/react-portfolio/static/media/navbar-icon.cf357038d834b3519dd0357d5ae02e9c.svg",
     "static/media/cat-logo.png": "/react-portfolio/static/media/cat-logo.936ba9c022391531251a.png",
     "index.html": "/react-portfolio/index.html",
-    "main.1f69f782.css.map": "/react-portfolio/static/css/main.1f69f782.css.map",
-    "main.cca16fc0.js.map": "/react-portfolio/static/js/main.cca16fc0.js.map"
+    "main.c926292d.css.map": "/react-portfolio/static/css/main.c926292d.css.map",
+    "main.f2693618.js.map": "/react-portfolio/static/js/main.f2693618.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f69f782.css",
-    "static/js/main.cca16fc0.js"
+    "static/css/main.c926292d.css",
+    "static/js/main.f2693618.js"
   ]
 }

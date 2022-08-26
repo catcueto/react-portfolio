@@ -25,7 +25,7 @@ function ContactForm() {
     event.preventDefault();
 
     if (!name || !email || !message) {
-      setErrorMessage("Please fill in the missing field!");
+      setErrorMessage("Please fill in the missing fied.");
       return;
     }
     if (!validateEmail(email)) {

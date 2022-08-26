@@ -153,7 +153,7 @@
 }
 
 /**************************/
-/* BELOW 576px (Phones) */
+/* BELOW 576px (Large) */
 /**************************/
 @media (max-width: 36em) {
   html {
@@ -171,7 +171,7 @@
   }
 
   .rightSide-socials {
-    bottom: -240rem;
+    bottom: -236rem;
   }
   #project-custom {
     width: 100%;
@@ -183,9 +183,9 @@
 }
 
 /**************************/
-/* BELOW 400px */
+/* BELOW 416px (Smaller Screens) */
 /**************************/
-@media (max-width: 25em) {
+@media (max-width: 26em) {
   html {
     font-size: 60%;
   }
@@ -198,7 +198,7 @@
   }
 
   .rightSide-socials {
-    bottom: -305rem;
+    bottom: -270rem;
   }
 
   .project-row {
@@ -213,13 +213,34 @@
   .projects-content {
     padding: 0 1.2rem 0 1.2rem;
   }
+
+  .project-title {
+    margin-bottom: 1.5rem;
+  }
+  .project-description {
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
   .btn,
   .button {
     border-radius: 20px;
-    padding: 1.2rem;
+    padding: 1rem;
+    width: 40%;
+    margin: auto;
   }
 
-  #skill-specific {
+  .skill-specific {
     border-radius: 15px;
+    padding: 1rem 1.5rem;
+    margin: 0 1rem 1rem 0;
+  }
+}
+
+/**************************/
+/* BELOW 336px */
+/**************************/
+@media (max-width: 21em) {
+  .rightSide-socials {
+    bottom: -278rem;
   }
 }
