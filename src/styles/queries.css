@@ -24,7 +24,7 @@
 /* BELOW 1248px (Landscape Tablets) */
 /**************************/
 
-@media (max-width: 78em) {
+@media (max-width: 79em) {
   html {
     font-size: 75%;
   }
