@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { validateEmail } from "../utils/helpers";
 
 function ContactForm() {
   const [name, setName] = useState("");
@@ -24,7 +25,11 @@ function ContactForm() {
     event.preventDefault();
 
     if (!name || !email || !message) {
-      setErrorMessage("Please fill in the missing field");
+      setErrorMessage("Please fill in the missing field!");
+      return;
+    }
+    if (!validateEmail(email)) {
+      setErrorMessage("Please enter a valid email");
       return;
     } else {
       setErrorMessage(
@@ -35,6 +40,21 @@ function ContactForm() {
     setName("");
     setEmail("");
     setMessage("");
+  };
+
+  const emptyInput = () => {
+    if (!name) {
+      setErrorMessage("Please enter your name.");
+      return;
+    } else if (!email) {
+      setErrorMessage("Please fill in your email.");
+    } else if (!validateEmail(email)) {
+      setErrorMessage("Please enter a valid email address");
+      return;
+    } else if (!message) {
+      setErrorMessage("Please type in a message.");
+      return;
+    }
   };
 
   return (
@@ -51,6 +71,7 @@ function ContactForm() {
             placeholder="Name"
             type="text"
             onChange={handleInputChange}
+            onBlur={emptyInput}
             required
           ></input>
           <input
@@ -60,6 +81,7 @@ function ContactForm() {
             placeholder="Email"
             type="email"
             onChange={handleInputChange}
+            onBlur={emptyInput}
             required
           ></input>
           <textarea
@@ -69,6 +91,7 @@ function ContactForm() {
             placeholder="Enter Your Message"
             type="text"
             onChange={handleInputChange}
+            onBlur={emptyInput}
             required
           ></textarea>
           <input type="hidden" name="_captcha" value="false"></input>

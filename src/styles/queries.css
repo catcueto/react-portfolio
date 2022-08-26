@@ -1,4 +1,13 @@
 /**************************/
+/* BELOW 1882px
+/**************************/
+@media (max-width: 118em) {
+  .rightSide-socials {
+    bottom: -275rem;
+  }
+}
+
+/**************************/
 /* BELOW 14872px (Smaller desktops) */
 /**************************/
 
@@ -21,15 +30,15 @@
 }
 
 /**************************/
-/* BELOW 1248px (Landscape Tablets) */
+/* BELOW 1280px (Landscape Tablets) */
 /**************************/
 
-@media (max-width: 79em) {
+@media (max-width: 80em) {
   html {
     font-size: 75%;
   }
   .rightSide-socials {
-    bottom: -168rem;
+    bottom: -260rem;
     display: flex;
     flex-direction: row;
   }
@@ -47,14 +56,17 @@
 
 @media (max-width: 63.5em) {
   html {
-    font-size: 60%;
+    font-size: 70%;
   }
   .rightSide-socials {
     bottom: -262rem;
     padding: 2rem;
   }
+  .individual-social {
+    width: 3rem;
+  }
   ion-icon {
-    font-size: 40px;
+    font-size: 26px;
   }
   .project-row {
     grid-gap: 4rem;
@@ -84,12 +96,12 @@
 }
 
 /**************************/
-/* BELOW 768px (Smaller tablets) */
+/* BELOW 864px (Smaller tablets) */
 /**************************/
 
-@media (max-width: 48em) {
+@media (max-width: 54em) {
   html {
-    font-size: 50%;
+    font-size: 60%;
   }
   .individual-social {
     width: 2.5rem;
@@ -97,39 +109,117 @@
   }
   .rightSide-socials {
     bottom: -208rem;
-    padding: 2rem;
+    padding: 1.5rem;
   }
   ion-icon {
-    font-size: 30px;
+    font-size: 25px;
+  }
+  .project-row {
+    grid-gap: 3.5rem;
+    grid-template-columns: 1.5r 1fr;
+  }
+}
+
+/**************************/
+/* BELOW 768x */
+/**************************/
+
+@media (max-width: 48em) {
+  html {
+    font-size: 60%;
+  }
+  .individual-social {
+    width: 2.5rem;
+    margin-right: 1.8rem;
+  }
+  .rightSide-socials {
+    bottom: -200rem;
+    padding: 0.8rem;
+  }
+  ion-icon {
+    font-size: 25px;
   }
   .project-row {
     grid-gap: 3.5rem;
     grid-template-columns: 1.5fr 1.2fr;
+  }
+  .project-description {
+    font-size: 1rem;
+  }
+  #project-custom {
+    width: 90%;
+    padding-top: 2.5rem;
   }
 }
 
 /**************************/
 /* BELOW 576px (Phones) */
 /**************************/
-
 @media (max-width: 36em) {
   html {
-    font-size: 35%;
+    font-size: 60%;
   }
   .nav-logo {
-    width: 3.5rem;
+    width: 2.8rem;
+  }
+  #about-text {
+    padding: 0 2rem 0 2rem;
   }
   .individual-social {
-    width: 1.5rem;
-    margin-right: 1.2rem;
+    width: 1.2rem;
+    margin-right: 1rem;
   }
 
   .rightSide-socials {
-    bottom: -150rem;
-    transform: translateY(500%);
-    padding: 1.5rem;
+    bottom: -240rem;
+  }
+  #project-custom {
+    width: 100%;
+    padding-top: 0.5rem;
   }
   ion-icon {
-    font-size: 12px;
+    font-size: 15px;
+  }
+}
+
+/**************************/
+/* BELOW 400px */
+/**************************/
+@media (max-width: 25em) {
+  html {
+    font-size: 60%;
+  }
+  .hero-content {
+    width: 92%;
+  }
+
+  #about-text {
+    padding: 0 1.2rem 0 1.2rem;
+  }
+
+  .rightSide-socials {
+    bottom: -305rem;
+  }
+
+  .project-row {
+    grid-template-columns: 1.2fr;
+    grid-gap: 2.5rem;
+    margin-bottom: 8rem;
+  }
+  #project-custom {
+    width: 90%;
+    padding-left: 4rem;
+  }
+  .projects-content {
+    padding: 0 1.2rem 0 1.2rem;
+  }
+  .btn,
+  .button {
+    border-radius: 20px;
+    padding: 1.2rem;
+  }
+
+  #skill-specific {
+    border-radius: 15px;
   }
 }
